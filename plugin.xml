@@ -37,11 +37,11 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="myapp">
-        <param name="android-package" value="nl.xservices.plugins.launchmyapp"/>
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/nl/xservices/plugins/launchmyapp.java" target-dir="src/nl/xservices/plugins"/>
+    <source-file src="src/android/nl/xservices/plugins/LaunchMyApp.java" target-dir="src/nl/xservices/plugins"/>
 
     <config-file target="AndroidManifest.xml" parent="/*/application/activity">
       <intent-filter>
