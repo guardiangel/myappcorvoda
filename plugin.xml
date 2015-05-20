@@ -31,12 +31,12 @@
 
   <!-- android -->
   <platform name="android">
-    <js-module src="www/android/myapp.js" name="myapp">
+    <js-module src="www/android/LaunchMyApp.js" name="LaunchMyApp">
       <clobbers target="window.plugins.launchmyapp" />
     </js-module>
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="myapp">
+      <feature name="LaunchMyApp">
         <param name="android-package" value="nl.xservices.plugins.LaunchMyApp"/>
       </feature>
     </config-file>
